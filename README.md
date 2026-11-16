@@ -46,6 +46,9 @@ Check `GameLogFull.txt` in:
 ```
 Search it for `SuperSoldierMod` to see whether the mod and its patches loaded.
 
-## Author
+## Credits
 
-Ng Kock Leong
+- **Ng Kock Leong**: author. Mod design, the Super Soldier career paths and in-game testing.
+- **Claude (Anthropic)**: AI assistant. Helped track down the prologue gear and class chest blueprints, wrote the `GiveWeapons_Holder`, `SpawnCorridorClassChest` and starship patches, fixed JSON errors, and drafted this README.
+- **microsoftenator2022**: [MicroPatches](https://www.nexusmods.com/warhammer40kroguetrader/search/?keyword=MicroPatches), required to load this mod.
+- **Owlcat Games**: Warhammer 40,000: Rogue Trader and the official modding template.
