@@ -1,0 +1,21 @@
+{
+  "Progression": {
+    "m_CareerPaths": [
+      {
+        "PatchType": "Insert",
+        "NewElement": "!bp_c545e11616a8467eafc6d140542aa756",
+        "InsertAfterTarget": "!bp_f95e3d9a049345ec918926f092ec67e2"
+      },
+      {
+        "PatchType": "Insert",
+        "NewElement": "!bp_116969e5e97644fc87b89cb061c13ecf",
+        "InsertAfterTarget": "!bp_c545e11616a8467eafc6d140542aa756"
+      },
+      {
+        "PatchType": "Insert",
+        "NewElement": "!bp_f780d0e134514e929102901569d5121d",
+        "InsertAfterTarget": "!bp_116969e5e97644fc87b89cb061c13ecf"
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "Actions": {
+    "Actions": [
+      {
+        "PatchType": "Insert",
+        "NewElement": {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$5a1f3c2e9b7d4e6f8a0b1c2d3e4f5a6b",
+          "Comment": "super soldier",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "f310985bf2724df4a97b165f74b806e8, HasFact",
+                "name": "$HasFact$6b2e4d3f0c8e4f7a9b1c2d3e4f5a6b7c",
+                "Not": false,
+                "Unit": {
+                  "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                  "name": "$PlayerCharacter$7c3f5e4a1d9f4a8b0c2d3e4f5a6b7c8d"
+                },
+                "m_Fact": "!bp_c545e11616a8467eafc6d140542aa756"
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": [
+              {
+                "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+                "name": "$AddItemToPlayer$8d4a6f5b2e0a4b9c1d3e4f5a6b7c8d9e",
+                "m_ItemToGive": "!bp_d40596aa846a4b5d926814ccb64939b9",
+                "Silent": false,
+                "Quantity": 1,
+                "Identify": true,
+                "Equip": false,
+                "EquipOn": null,
+                "PreferredWeaponSet": 0,
+                "m_Hand": "Any",
+                "ForceEquip": false,
+                "ErrorIfDidNotEquip": true
+              },
+              {
+                "$type": "1f1c883ef085c5c4b877eeb4c5da318c, AddItemToPlayer",
+                "name": "$AddItemToPlayer$9e5b7a6c3f1b4cad2e4f5a6b7c8d9e0f",
+                "m_ItemToGive": "!bp_ca22b8d5c271448b882ebdf262f9ea1a",
+                "Silent": false,
+                "Quantity": 1,
+                "Identify": true,
+                "Equip": false,
+                "EquipOn": null,
+                "PreferredWeaponSet": 0,
+                "m_Hand": "Any",
+                "ForceEquip": false,
+                "ErrorIfDidNotEquip": true
+              }
+            ]
+          },
+          "IfFalse": {
+            "Actions": []
+          }
+        },
+        "InsertAfterTarget": "$Conditional$971226a6-16e4-4efd-a385-0664e656bde0"
+      }
+    ]
+  }
+}

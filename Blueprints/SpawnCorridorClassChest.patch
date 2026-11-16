@@ -1,0 +1,51 @@
+{
+  "Actions": {
+    "Actions": [
+      {
+        "PatchType": "Insert",
+        "NewElement": {
+          "$type": "52d8973f2e470e14c97b74209680491a, Conditional",
+          "name": "$Conditional$a1c4e7f02b3d4c5e8f9a0b1c2d3e4f50",
+          "Comment": "super soldier - reveal soldier corridor chest",
+          "ConditionsChecker": {
+            "Operation": "And",
+            "Conditions": [
+              {
+                "$type": "f310985bf2724df4a97b165f74b806e8, HasFact",
+                "name": "$HasFact$b2d5f8a13c4e4d6f9a0b1c2d3e4f5061",
+                "Not": false,
+                "Unit": {
+                  "$type": "25c132cb07bfaef4683b062a74f6e012, PlayerCharacter",
+                  "name": "$PlayerCharacter$c3e6a9b24d5f4e7a0b1c2d3e4f506172"
+                },
+                "m_Fact": "!bp_c545e11616a8467eafc6d140542aa756"
+              }
+            ]
+          },
+          "IfTrue": {
+            "Actions": [
+              {
+                "$type": "3abef1c138b2b3344bebcf6fbbe5cf47, HideMapObject",
+                "name": "$HideMapObject$d4f7b0c35e6a4f8b1c2d3e4f50617283",
+                "MapObject": {
+                  "$type": "2f7f1ee24f13dca42977f3b2b5a847f8, MapObjectFromScene",
+                  "name": "$MapObjectFromScene$e5a8c1d46f7b4a9c2d3e4f5061728394",
+                  "MapObject": {
+                    "EntityNameInEditor": "CorridorChestSolder",
+                    "_entity_id": "f40e7992-4559-4923-a3e3-29ee48dbcb53",
+                    "SceneAssetGuid": "d26d474b9d85dff41aebef0af2bab13f"
+                  }
+                },
+                "Unhide": true
+              }
+            ]
+          },
+          "IfFalse": {
+            "Actions": []
+          }
+        },
+        "InsertAfterTarget": "$RandomAction$01eb0112d97f438aabd2782bc3721e45"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "UniqueName": "SuperSoldierMod",
+  "Version": "1.0.0",
+  "DisplayName": "Super Soldier Mod",
+  "Description": "New class based on Soldier",
+  "Author": "Ng Kock Leong",
+  "Repository": "",
+  "HomePage": "",
+  "Dependencies": []
+}

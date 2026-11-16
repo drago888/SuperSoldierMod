@@ -1,0 +1,71 @@
+{
+  "BundlesLayout": {
+    "m_Guids": [],
+    "m_Bundles": []
+  },
+  "BundleDependencies": {
+    "m_List": []
+  },
+  "BlueprintPatches": [
+    {
+      "Guid": "2d77316c72b9ed44f888ceefc2a131f6",
+      "Filename": "BlueprintRoot.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "bcefe9c41c7841c9a99b1dbac1793025",
+      "Filename": "AscensionCareerPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "6f276e8a8e2c4a548504ae39d2a7f22a",
+      "Filename": "Hunter_CareerPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "604fa184d7d944c8ae5965f9700782b5",
+      "Filename": "TacticianCareerPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "651684417def4c258c72ba91f481b817",
+      "Filename": "VeteranCareerPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "45181a40472441a8904a5282f83693f4",
+      "Filename": "CustomCharacterChargenPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "bf7b6a4da7fe4b69accac3506f0dd561",
+      "Filename": "NavigatorCharacterChargenPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "e9215686ca994c3a8fd2558b9e91c649",
+      "Filename": "NewCompanion_CustomCharacterChargenPath.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "2e3756e28ece47508977b5628645aefc",
+      "Filename": "GiveWeapons_Holder.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "b485d1c8f1264f1e82c3f9c24ef15a02",
+      "Filename": "SpawnCorridorClassChest.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "2d9014f545b143418cb42cbf64dfd74f",
+      "Filename": "AlternateShip_FirestormClassFrigatePlayer_Starship.patch",
+      "PatchType": 2
+    },
+    {
+      "Guid": "1793b8c1fd824805908bee8ed0e95041",
+      "Filename": "SwordClassFrigatePlayer_Starship.patch",
+      "PatchType": 2
+    }
+  ]
+}
